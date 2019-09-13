@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083DEC4663DF57572D21851E /* Pods_EBerryTVAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685F57B369C5A45EAB0BF2B4 /* Pods_EBerryTVAppUITests.framework */; };
+		09F0EE107869E56C82B0D5DD /* Pods_EBerryTVApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EE5D43EEADC167F449DAB7 /* Pods_EBerryTVApp.framework */; };
+		10557404232A9B5200B05920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10557403232A9B5200B05920 /* AppDelegate.swift */; };
+		10557406232A9B5200B05920 /* TvListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10557405232A9B5200B05920 /* TvListController.swift */; };
+		10557409232A9B5300B05920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10557407232A9B5300B05920 /* Main.storyboard */; };
+		1055740C232A9B5300B05920 /* EBerryTVApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1055740A232A9B5300B05920 /* EBerryTVApp.xcdatamodeld */; };
+		1055740E232A9B5800B05920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1055740D232A9B5800B05920 /* Assets.xcassets */; };
+		10557411232A9B5800B05920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1055740F232A9B5800B05920 /* LaunchScreen.storyboard */; };
+		1055741C232A9B5900B05920 /* EBerryTVAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055741B232A9B5900B05920 /* EBerryTVAppTests.swift */; };
+		10557427232A9B5900B05920 /* EBerryTVAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10557426232A9B5900B05920 /* EBerryTVAppUITests.swift */; };
+		1055743B232A9C3600B05920 /* TvListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055743A232A9C3600B05920 /* TvListModel.swift */; };
+		1055743F232A9C9B00B05920 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055743E232A9C9B00B05920 /* Services.swift */; };
+		10557441232AA19200B05920 /* TvListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10557440232AA19200B05920 /* TvListCell.swift */; };
+		10557447232AA27800B05920 /* TvListDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10557446232AA27800B05920 /* TvListDetailController.swift */; };
+		1055744A232AA45D00B05920 /* InternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10557449232AA45D00B05920 /* InternetController.swift */; };
+		1055744D232C0C5B00B05920 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055744C232C0C5B00B05920 /* Helper.swift */; };
+		626224156FF26CB8C5F331E3 /* Pods_EBerryTVAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3987827B7E0CB060373B17E4 /* Pods_EBerryTVAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10557418232A9B5900B05920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105573F8232A9B5200B05920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105573FF232A9B5200B05920;
+			remoteInfo = EBerryTVApp;
+		};
+		10557423232A9B5900B05920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105573F8232A9B5200B05920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105573FF232A9B5200B05920;
+			remoteInfo = EBerryTVApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10557400232A9B5200B05920 /* EBerryTVApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBerryTVApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10557403232A9B5200B05920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10557405232A9B5200B05920 /* TvListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvListController.swift; sourceTree = "<group>"; };
+		10557408232A9B5300B05920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1055740B232A9B5300B05920 /* EBerryTVApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EBerryTVApp.xcdatamodel; sourceTree = "<group>"; };
+		1055740D232A9B5800B05920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10557410232A9B5800B05920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10557412232A9B5800B05920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10557417232A9B5900B05920 /* EBerryTVAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EBerryTVAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1055741B232A9B5900B05920 /* EBerryTVAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBerryTVAppTests.swift; sourceTree = "<group>"; };
+		1055741D232A9B5900B05920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10557422232A9B5900B05920 /* EBerryTVAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EBerryTVAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10557426232A9B5900B05920 /* EBerryTVAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBerryTVAppUITests.swift; sourceTree = "<group>"; };
+		10557428232A9B5900B05920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1055743A232A9C3600B05920 /* TvListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvListModel.swift; sourceTree = "<group>"; };
+		1055743E232A9C9B00B05920 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		10557440232AA19200B05920 /* TvListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvListCell.swift; sourceTree = "<group>"; };
+		10557446232AA27800B05920 /* TvListDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvListDetailController.swift; sourceTree = "<group>"; };
+		10557449232AA45D00B05920 /* InternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetController.swift; sourceTree = "<group>"; };
+		1055744C232C0C5B00B05920 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		131232EEAC3B5E7714168F82 /* Pods-EBerryTVAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBerryTVAppTests.debug.xcconfig"; path = "Target Support Files/Pods-EBerryTVAppTests/Pods-EBerryTVAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3987827B7E0CB060373B17E4 /* Pods_EBerryTVAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EBerryTVAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54400ADA1BD10C2010255808 /* Pods-EBerryTVAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBerryTVAppTests.release.xcconfig"; path = "Target Support Files/Pods-EBerryTVAppTests/Pods-EBerryTVAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		67C5D62FE0A34855D4174089 /* Pods-EBerryTVApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBerryTVApp.release.xcconfig"; path = "Target Support Files/Pods-EBerryTVApp/Pods-EBerryTVApp.release.xcconfig"; sourceTree = "<group>"; };
+		685F57B369C5A45EAB0BF2B4 /* Pods_EBerryTVAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EBerryTVAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0B3E4E1A531F704C6C8225 /* Pods-EBerryTVApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBerryTVApp.debug.xcconfig"; path = "Target Support Files/Pods-EBerryTVApp/Pods-EBerryTVApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8209DC9755087DA0EAC77228 /* Pods-EBerryTVAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBerryTVAppUITests.release.xcconfig"; path = "Target Support Files/Pods-EBerryTVAppUITests/Pods-EBerryTVAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4D2D662315E666B8658658B /* Pods-EBerryTVAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBerryTVAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-EBerryTVAppUITests/Pods-EBerryTVAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4EE5D43EEADC167F449DAB7 /* Pods_EBerryTVApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EBerryTVApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		105573FD232A9B5200B05920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F0EE107869E56C82B0D5DD /* Pods_EBerryTVApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10557414232A9B5900B05920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626224156FF26CB8C5F331E3 /* Pods_EBerryTVAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1055741F232A9B5900B05920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083DEC4663DF57572D21851E /* Pods_EBerryTVAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105573F7232A9B5200B05920 = {
+			isa = PBXGroup;
+			children = (
+				10557402232A9B5200B05920 /* EBerryTVApp */,
+				1055741A232A9B5900B05920 /* EBerryTVAppTests */,
+				10557425232A9B5900B05920 /* EBerryTVAppUITests */,
+				10557401232A9B5200B05920 /* Products */,
+				1A55560FE3D447F2F7BDCEEF /* Pods */,
+				C5A9E2F47ED5FC99811EBEDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10557401232A9B5200B05920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10557400232A9B5200B05920 /* EBerryTVApp.app */,
+				10557417232A9B5900B05920 /* EBerryTVAppTests.xctest */,
+				10557422232A9B5900B05920 /* EBerryTVAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10557402232A9B5200B05920 /* EBerryTVApp */ = {
+			isa = PBXGroup;
+			children = (
+				10557436232A9B8900B05920 /* Controller */,
+				10557435232A9B8300B05920 /* View */,
+				10557434232A9B7D00B05920 /* Model */,
+				1055740D232A9B5800B05920 /* Assets.xcassets */,
+				10557412232A9B5800B05920 /* Info.plist */,
+				1055740A232A9B5300B05920 /* EBerryTVApp.xcdatamodeld */,
+			);
+			path = EBerryTVApp;
+			sourceTree = "<group>";
+		};
+		1055741A232A9B5900B05920 /* EBerryTVAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1055741B232A9B5900B05920 /* EBerryTVAppTests.swift */,
+				1055741D232A9B5900B05920 /* Info.plist */,
+			);
+			path = EBerryTVAppTests;
+			sourceTree = "<group>";
+		};
+		10557425232A9B5900B05920 /* EBerryTVAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10557426232A9B5900B05920 /* EBerryTVAppUITests.swift */,
+				10557428232A9B5900B05920 /* Info.plist */,
+			);
+			path = EBerryTVAppUITests;
+			sourceTree = "<group>";
+		};
+		10557434232A9B7D00B05920 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1055743A232A9C3600B05920 /* TvListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10557435232A9B8300B05920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10557407232A9B5300B05920 /* Main.storyboard */,
+				1055740F232A9B5800B05920 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10557436232A9B8900B05920 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10557448232AA42E00B05920 /* DatabaseHelper */,
+				10557444232AA23A00B05920 /* UICells */,
+				10557443232AA23200B05920 /* UIControllers */,
+				10557437232A9B9400B05920 /* Common */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		10557437232A9B9400B05920 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1055744B232C0C4800B05920 /* Helper */,
+				10557442232AA1A600B05920 /* InternetController */,
+				1055743D232A9C9100B05920 /* Services */,
+				1055743C232A9C8800B05920 /* Launch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		10557438232A9BBC00B05920 /* TvList */ = {
+			isa = PBXGroup;
+			children = (
+				10557405232A9B5200B05920 /* TvListController.swift */,
+			);
+			path = TvList;
+			sourceTree = "<group>";
+		};
+		10557439232A9BCA00B05920 /* TvListDetail */ = {
+			isa = PBXGroup;
+			children = (
+				10557446232AA27800B05920 /* TvListDetailController.swift */,
+			);
+			path = TvListDetail;
+			sourceTree = "<group>";
+		};
+		1055743C232A9C8800B05920 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				10557403232A9B5200B05920 /* AppDelegate.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		1055743D232A9C9100B05920 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1055743E232A9C9B00B05920 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		10557442232AA1A600B05920 /* InternetController */ = {
+			isa = PBXGroup;
+			children = (
+				10557449232AA45D00B05920 /* InternetController.swift */,
+			);
+			path = InternetController;
+			sourceTree = "<group>";
+		};
+		10557443232AA23200B05920 /* UIControllers */ = {
+			isa = PBXGroup;
+			children = (
+				10557438232A9BBC00B05920 /* TvList */,
+				10557439232A9BCA00B05920 /* TvListDetail */,
+			);
+			path = UIControllers;
+			sourceTree = "<group>";
+		};
+		10557444232AA23A00B05920 /* UICells */ = {
+			isa = PBXGroup;
+			children = (
+				10557445232AA24C00B05920 /* TvListCell */,
+			);
+			path = UICells;
+			sourceTree = "<group>";
+		};
+		10557445232AA24C00B05920 /* TvListCell */ = {
+			isa = PBXGroup;
+			children = (
+				10557440232AA19200B05920 /* TvListCell.swift */,
+			);
+			path = TvListCell;
+			sourceTree = "<group>";
+		};
+		10557448232AA42E00B05920 /* DatabaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DatabaseHelper;
+			sourceTree = "<group>";
+		};
+		1055744B232C0C4800B05920 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1055744C232C0C5B00B05920 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1A55560FE3D447F2F7BDCEEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D0B3E4E1A531F704C6C8225 /* Pods-EBerryTVApp.debug.xcconfig */,
+				67C5D62FE0A34855D4174089 /* Pods-EBerryTVApp.release.xcconfig */,
+				131232EEAC3B5E7714168F82 /* Pods-EBerryTVAppTests.debug.xcconfig */,
+				54400ADA1BD10C2010255808 /* Pods-EBerryTVAppTests.release.xcconfig */,
+				C4D2D662315E666B8658658B /* Pods-EBerryTVAppUITests.debug.xcconfig */,
+				8209DC9755087DA0EAC77228 /* Pods-EBerryTVAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5A9E2F47ED5FC99811EBEDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4EE5D43EEADC167F449DAB7 /* Pods_EBerryTVApp.framework */,
+				3987827B7E0CB060373B17E4 /* Pods_EBerryTVAppTests.framework */,
+				685F57B369C5A45EAB0BF2B4 /* Pods_EBerryTVAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		105573FF232A9B5200B05920 /* EBerryTVApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1055742B232A9B5900B05920 /* Build configuration list for PBXNativeTarget "EBerryTVApp" */;
+			buildPhases = (
+				EF16A6E520648931A1A60452 /* [CP] Check Pods Manifest.lock */,
+				105573FC232A9B5200B05920 /* Sources */,
+				105573FD232A9B5200B05920 /* Frameworks */,
+				105573FE232A9B5200B05920 /* Resources */,
+				84BF1875C9B1470CD2964507 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBerryTVApp;
+			productName = EBerryTVApp;
+			productReference = 10557400232A9B5200B05920 /* EBerryTVApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10557416232A9B5900B05920 /* EBerryTVAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1055742E232A9B5900B05920 /* Build configuration list for PBXNativeTarget "EBerryTVAppTests" */;
+			buildPhases = (
+				DCFE8EDC5B96A04D4E5CEF46 /* [CP] Check Pods Manifest.lock */,
+				10557413232A9B5900B05920 /* Sources */,
+				10557414232A9B5900B05920 /* Frameworks */,
+				10557415232A9B5900B05920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10557419232A9B5900B05920 /* PBXTargetDependency */,
+			);
+			name = EBerryTVAppTests;
+			productName = EBerryTVAppTests;
+			productReference = 10557417232A9B5900B05920 /* EBerryTVAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10557421232A9B5900B05920 /* EBerryTVAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10557431232A9B5900B05920 /* Build configuration list for PBXNativeTarget "EBerryTVAppUITests" */;
+			buildPhases = (
+				7A35FF64D9ADD7184C6464E7 /* [CP] Check Pods Manifest.lock */,
+				1055741E232A9B5900B05920 /* Sources */,
+				1055741F232A9B5900B05920 /* Frameworks */,
+				10557420232A9B5900B05920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10557424232A9B5900B05920 /* PBXTargetDependency */,
+			);
+			name = EBerryTVAppUITests;
+			productName = EBerryTVAppUITests;
+			productReference = 10557422232A9B5900B05920 /* EBerryTVAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		105573F8232A9B5200B05920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Mehmet Can Seyhan";
+				TargetAttributes = {
+					105573FF232A9B5200B05920 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					10557416232A9B5900B05920 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 105573FF232A9B5200B05920;
+					};
+					10557421232A9B5900B05920 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 105573FF232A9B5200B05920;
+					};
+				};
+			};
+			buildConfigurationList = 105573FB232A9B5200B05920 /* Build configuration list for PBXProject "EBerryTVApp" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 105573F7232A9B5200B05920;
+			productRefGroup = 10557401232A9B5200B05920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				105573FF232A9B5200B05920 /* EBerryTVApp */,
+				10557416232A9B5900B05920 /* EBerryTVAppTests */,
+				10557421232A9B5900B05920 /* EBerryTVAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		105573FE232A9B5200B05920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10557411232A9B5800B05920 /* LaunchScreen.storyboard in Resources */,
+				1055740E232A9B5800B05920 /* Assets.xcassets in Resources */,
+				10557409232A9B5300B05920 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10557415232A9B5900B05920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10557420232A9B5900B05920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A35FF64D9ADD7184C6464E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EBerryTVAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84BF1875C9B1470CD2964507 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EBerryTVApp/Pods-EBerryTVApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EBerryTVApp/Pods-EBerryTVApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EBerryTVApp/Pods-EBerryTVApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFE8EDC5B96A04D4E5CEF46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EBerryTVAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF16A6E520648931A1A60452 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EBerryTVApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		105573FC232A9B5200B05920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1055744A232AA45D00B05920 /* InternetController.swift in Sources */,
+				1055743F232A9C9B00B05920 /* Services.swift in Sources */,
+				10557406232A9B5200B05920 /* TvListController.swift in Sources */,
+				10557441232AA19200B05920 /* TvListCell.swift in Sources */,
+				10557404232A9B5200B05920 /* AppDelegate.swift in Sources */,
+				1055744D232C0C5B00B05920 /* Helper.swift in Sources */,
+				10557447232AA27800B05920 /* TvListDetailController.swift in Sources */,
+				1055740C232A9B5300B05920 /* EBerryTVApp.xcdatamodeld in Sources */,
+				1055743B232A9C3600B05920 /* TvListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10557413232A9B5900B05920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1055741C232A9B5900B05920 /* EBerryTVAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1055741E232A9B5900B05920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10557427232A9B5900B05920 /* EBerryTVAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10557419232A9B5900B05920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105573FF232A9B5200B05920 /* EBerryTVApp */;
+			targetProxy = 10557418232A9B5900B05920 /* PBXContainerItemProxy */;
+		};
+		10557424232A9B5900B05920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105573FF232A9B5200B05920 /* EBerryTVApp */;
+			targetProxy = 10557423232A9B5900B05920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10557407232A9B5300B05920 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10557408232A9B5300B05920 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1055740F232A9B5800B05920 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10557410232A9B5800B05920 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10557429232A9B5900B05920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1055742A232A9B5900B05920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1055742C232A9B5900B05920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0B3E4E1A531F704C6C8225 /* Pods-EBerryTVApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ3DTQGNTX;
+				INFOPLIST_FILE = EBerryTVApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetcan.seyhan-gmail.com.EBerryTVApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1055742D232A9B5900B05920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C5D62FE0A34855D4174089 /* Pods-EBerryTVApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ3DTQGNTX;
+				INFOPLIST_FILE = EBerryTVApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetcan.seyhan-gmail.com.EBerryTVApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1055742F232A9B5900B05920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131232EEAC3B5E7714168F82 /* Pods-EBerryTVAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ3DTQGNTX;
+				INFOPLIST_FILE = EBerryTVAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetcan.seyhan-gmail.com.EBerryTVAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EBerryTVApp.app/EBerryTVApp";
+			};
+			name = Debug;
+		};
+		10557430232A9B5900B05920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54400ADA1BD10C2010255808 /* Pods-EBerryTVAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ3DTQGNTX;
+				INFOPLIST_FILE = EBerryTVAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetcan.seyhan-gmail.com.EBerryTVAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EBerryTVApp.app/EBerryTVApp";
+			};
+			name = Release;
+		};
+		10557432232A9B5900B05920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D2D662315E666B8658658B /* Pods-EBerryTVAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ3DTQGNTX;
+				INFOPLIST_FILE = EBerryTVAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetcan.seyhan-gmail.com.EBerryTVAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EBerryTVApp;
+			};
+			name = Debug;
+		};
+		10557433232A9B5900B05920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8209DC9755087DA0EAC77228 /* Pods-EBerryTVAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ3DTQGNTX;
+				INFOPLIST_FILE = EBerryTVAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetcan.seyhan-gmail.com.EBerryTVAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EBerryTVApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		105573FB232A9B5200B05920 /* Build configuration list for PBXProject "EBerryTVApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10557429232A9B5900B05920 /* Debug */,
+				1055742A232A9B5900B05920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1055742B232A9B5900B05920 /* Build configuration list for PBXNativeTarget "EBerryTVApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1055742C232A9B5900B05920 /* Debug */,
+				1055742D232A9B5900B05920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1055742E232A9B5900B05920 /* Build configuration list for PBXNativeTarget "EBerryTVAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1055742F232A9B5900B05920 /* Debug */,
+				10557430232A9B5900B05920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10557431232A9B5900B05920 /* Build configuration list for PBXNativeTarget "EBerryTVAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10557432232A9B5900B05920 /* Debug */,
+				10557433232A9B5900B05920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1055740A232A9B5300B05920 /* EBerryTVApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1055740B232A9B5300B05920 /* EBerryTVApp.xcdatamodel */,
+			);
+			currentVersion = 1055740B232A9B5300B05920 /* EBerryTVApp.xcdatamodel */;
+			path = EBerryTVApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 105573F8232A9B5200B05920 /* Project object */;
+}
